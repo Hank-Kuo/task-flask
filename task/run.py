@@ -1,3 +1,4 @@
+from flask import Flask
 from task.application import create_app
 from task.extension.config_extension import get_config
 
